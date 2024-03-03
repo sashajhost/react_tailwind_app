@@ -5,7 +5,7 @@ import Room3 from '../Assets/Room3.jpg';
 
 const Rooms = () => {
   return (
-    <div>
+    <div className='max-w-[1400px] h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg-[20%] md:mb-[35%]'>
         <div>
             <h3>Fine Interior Rooms</h3>
             <p>This double room's standout feature is the pool with a view. The spacious double 
@@ -15,6 +15,9 @@ const Rooms = () => {
         </div>
 
         <div>
+            <img src={Room1} alt=''/>
+            <img src={Room2} alt=''/>
+            <img src={Room3} alt=''/>
 
         </div>
       
