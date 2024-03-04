@@ -5,19 +5,19 @@ import Room3 from '../Assets/Room3.jpg';
 
 const Rooms = () => {
   return (
-    <div className='max-w-[1400px] h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg-[20%] md:mb-[35%]'>
-        <div>
-            <h3>Fine Interior Rooms</h3>
-            <p>This double room's standout feature is the pool with a view. The spacious double 
+    <div className='max-w-[1400px] h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg-[20%] md:mb-[35%] grid lg:grid-cols-3 gap-4'>
+        <div className='relative col-span-2 lg:top-20 lg:col-span-1 '>
+            <h3 className='text-2xl font-bold '>Fine Interior Rooms</h3>
+            <p className='pt-4 '>This double room's standout feature is the pool with a view. The spacious double 
                 room offers air conditioning, a minibar, a terrace with garden views as well as 
                 a private bathroom featuring a walk-in shower. The unit offers 1 bed.</p>
 
         </div>
 
-        <div>
-            <img src={Room1} alt=''/>
-            <img src={Room2} alt=''/>
-            <img src={Room3} alt=''/>
+        <div className='grid grid-cols-2 col-span-2 gap-2'>
+            <img className='object-cover w-full h-full' src={Room1} alt=''/>
+            <img className='object-cover w-full h-full row-span-2' src={Room2} alt=''/>
+            <img className='object-cover w-full h-full' src={Room3} alt=''/>
 
         </div>
       
