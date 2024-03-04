@@ -41,13 +41,14 @@ const ImageSlider = () => {
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
       ></div>
       {/* Left Arrow */}
-      <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 group-hover:bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactLeft onClick={prevSlide} size={30} />
+      <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 group-hover:bg-black/20 text-white cursor-pointer opacity-0 group-hover:opacity-100 '>
+        <BsChevronCompactLeft onClick={nextSlide} size={30} />
       </div>
       {/* Right Arrow */}
-      <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 group-hover:bg-black/20 text-white cursor-pointer'>
+      <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 opacity-0 group-hover:opacity-100 text-white cursor-pointer'>
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
+
 
       <div className='flex justify-center py-2 top-4'>
         {slides.map((slide, slideIndex) => (
