@@ -3,9 +3,11 @@ import Room1 from '../Assets/Room1.jpg';
 import Room2 from '../Assets/Room2.jpg';
 import Room3 from '../Assets/Room3.jpg';
 
+
+
 const Rooms = () => {
   return (
-    <div className='max-w-[1400px] h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg-[20%] md:mb-[35%] grid lg:grid-cols-3 gap-4'>
+    <div className='max-w-[1400px] h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg-[20%] md:mb-[35%] grid lg:grid-cols-3 gap-4 md:h-[150px]'>
         <div className='relative col-span-2 g:top-20 lg:col-span-1 ps-4'>
             <h3 className='text-2xl font-bold text-center md:text-left'>Fine Interior Rooms</h3>
             <p className='pt-4 text-center md:text-left'>This double room's standout feature is the pool with a view. The spacious double 
@@ -20,6 +22,9 @@ const Rooms = () => {
             <img className='object-cover w-full h-full' src={Room3} alt=''/>
 
         </div>
+
+
+       
       
     </div>
   )
