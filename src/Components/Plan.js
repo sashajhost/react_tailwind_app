@@ -17,17 +17,17 @@ const Plan = () => {
         </div>
 
         <div className='flex flex-col justify-center h-full '>
-            <h3 className='justify-center text-5xl font-bold text-center md:text-6xl md:text-left'>Plan your next trip</h3>
-            <p className='justify-center py-6 text-2xl text-center md:text-left'> Discover a picturesque retreat nestled on the banks of Weerawila Lake, close to Weerawila Tissa Sanctuary and Bundala Nati
+            <h3 className='justify-center text-5xl font-bold text-center md:text-6xl lg:text-left'>Plan your next trip</h3>
+            <p className='justify-center py-6 text-2xl text-center lg:text-left'> Discover a picturesque retreat nestled on the banks of Weerawila Lake, close to Weerawila Tissa Sanctuary and Bundala Nati
                 onal Park. Kirinda Vihara Maha Devi Temple and Yala National Park are within an hour's drive. Enjoy inspiring 
                 views from our lake-view outdoor pool. Our on-site restaurants serve up locally sourced seasonal cuisine.</p>
-            <p className='justify-center pb-6 text-center md:text-left'>We’re in Colombo’s business district, connected to the World Trade Centre. Dutch 
+            <p className='justify-center pb-6 text-center lg:text-left'>We’re in Colombo’s business district, connected to the World Trade Centre. Dutch 
                 Hospital shopping is less than five minutes away, and we’re under two kilometers 
                 from Galle Face Beach. Gangarama Temple is 10 minutes away. Local tuk-tuks are available
                  outside the hotel for exploring the area. Enjoy our outdoor pool, karaoke bar, and on-site restaurants.</p>
         </div>
 
-        <div className='flex items-center justify-center md:flex md:justify-normal'>
+        <div className='flex items-center justify-center md:flex lg:justify-normal'>
             <button class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">Learn More</button>
             <button class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">Book Your Trip</button>
         </div>
