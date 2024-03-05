@@ -7,7 +7,7 @@ const Hero = () => {
         <img className='top-0 left-0 object-cover w-full h-screen' src={hotel} alt="hotel front"/>
         <div className='absolute top-0 left-0 w-full h-screen bg-black/30' /> 
 
-        <div className='absolute top-0 flex flex-col justify-center w-full h-full text-center text-white md:text-left p-11'>
+        <div className='absolute top-0 flex flex-col justify-center w-full h-full text-center text-white lg:text-left p-11'>
             <div className='md:left-[10%] max-w-[1100px] m-auto p-4 '>
             <p className=''>All inclussive</p>
             <h1 className='text-3xl font-bold md:text-5xl drop-shadow-2xl'>Private beaches and gateaways</h1>
